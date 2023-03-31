@@ -16,29 +16,29 @@ from logging import Logger
 from logMan import createLogger
 
 
-# def run_cli(data):
-#     #if no enable ... default to True
-#     if data.get("enable",True) == False:
-#         return "this is not enabled"
-#
-#     options = " "
-#     if data.get("noarchive",False):
-#         options += "--noarchive"
-#         options += " "
-#     if data.get("noprompt",False):
-#         options += "--noprompt"
-#         options += " "
-#     if data.get("nolog",False):
-#         options += "--nolog"
-#         options += " "
-#
-#     try:
-#         cmd = f'start wt -p \"pwsh\" python -m backupy.cli \"{data["source"]}\" \"{data["dest"]}\" {options}'
-#         # print(cmd)
-#         os.system(cmd)
-#         return cmd
-#     except Exception as e:
-#         return str(e)
+def run_cli(data):
+    #if no enable ... default to True
+    if data.get("enable",True) == False:
+        return "this is not enabled"
+
+    options = " "
+    if data.get("noarchive",False):
+        options += "--noarchive"
+        options += " "
+    if data.get("noprompt",False):
+        options += "--noprompt"
+        options += " "
+    if data.get("nolog",False):
+        options += "--nolog"
+        options += " "
+
+    try:
+        cmd = f'start wt -p \"pwsh\" python -m backupy.cli \"{data["source"]}\" \"{data["dest"]}\" {options}'
+        # print(cmd)
+        os.system(cmd)
+        return cmd
+    except Exception as e:
+        return str(e)
 
 
 def main():

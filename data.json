@@ -3,49 +3,49 @@
 [
     {
         "source": "D:\\Music",
-        "root_dest": "F:\\",
+        "root_dest": "E:\\",
         "enable": true,
         "noprompt": true,
         "nolog": true
     },
     {
         "source": "D:\\Documents",
-        "root_dest": "F:\\",
+        "root_dest": "E:\\",
         "enable": true,
         "noprompt": true,
         "nolog": true
     },
     {
         "source": "D:\\Scripts",
-        "root_dest": "F:\\",
+        "root_dest": "E:\\",
         "enable": true,
         "noprompt": true,
         "nolog": true
     },
     {
         "source": "C:\\Users\\JGarza\\Google Drive",
-        "root_dest": "F:\\",
+        "root_dest": "E:\\",
         "enable": true,
         "noprompt": true,
         "nolog": true
     },
     {
         "source": "C:\\Users\\JGarza\\MiscGames",
-        "root_dest": "F:\\",
+        "root_dest": "E:\\",
         "enable": true,
         "noprompt": true,
         "nolog": true
     },
     {
         "source": "D:\\PSDs",
-        "root_dest": "F:\\",
+        "root_dest": "E:\\",
         "enable": true,
         "noprompt": true,
         "nolog": true
     },
     {
         "source": "D:\\UnityProjects",
-        "root_dest": "F:\\",
+        "root_dest": "E:\\",
         "enable": true,
         "noprompt": true,
         "nolog": true
